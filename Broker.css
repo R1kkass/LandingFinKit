@@ -1,0 +1,73 @@
+.Broker {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 114px;
+    gap: 10%;
+}
+
+.Broker__text h2 {
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 562px;
+    line-height: 130%;
+    letter-spacing: -1.14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Broker__text p {
+    margin-top: 21px;
+    margin-bottom: 37px;
+    max-width: 405px;
+}
+
+.Broker__text span {
+    color: blue;
+}
+
+.Broker__block {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 140px 140px;
+    gap: 21px;
+}
+
+.Broker__block .Block {
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    button{
+        width: 100%;
+    }
+    .Broker{
+        flex-direction: column;
+        gap: 37px;
+        width: 100%;
+        margin-top: 40px;
+        padding-inline: 16px;
+    }
+
+    .Broker__text{
+        width: 100%;
+        text-align: center;
+
+    }
+    .Broker__text h2{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        width: 100%;
+    }
+    .Broker__text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .Broker__block .Block{
+        padding: 18px;
+    }
+}
